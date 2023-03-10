@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+ }
+ 
+ 
+ 
+ h1 {
+      color:blue;
+ 
+ }
+ h1 {
+      color:blueviolet
+ }
+ .title, .dsc {
+      text-align: center;
+ }
+ 
+ .container{
+      margin: 0 auto;
+      width: 1200;
+ }
+ 
+ .header {
+      background-color: #fff;
+    height: 150px;
+    margin-top: 150px; 
+ }
+ 
+  .menu {
+      margin-top: 50px;
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+ 
+  }
+  .menu-link{
+      display: block;
+      text-decoration: none;
+      width: 100px;
+      height: 40px;
+      background-color: #3d3696;
+      color: white;
+      text-align: center;
+      line-height: large;
+      text-transform: uppercase;
+      font-weight: bold; 
+      border-radius: 10px;
+      border: ipx solid transparent;
+ 
+  }
+  .menu-link:hover{
+      color: darkmagenta;
+      background-color:#fff;
+      border: ipx solid darkorchid;
+  }
